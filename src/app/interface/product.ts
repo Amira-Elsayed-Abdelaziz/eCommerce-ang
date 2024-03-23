@@ -10,5 +10,7 @@ export interface Product {
     "category"?: string,
     "thumbnail"?: string,
     "images"?: Array<string>,
+    "incart"?:boolean,
+    "count"?:number,
     // "createdAt": string,
 }
